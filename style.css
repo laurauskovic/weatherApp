@@ -1,0 +1,69 @@
+body {
+	background-image: url('default.jpg');
+	background-image: cover; 
+	background-repeat: no-repeat;
+	background-position: center center; 
+	text-shadow: 2px 2px 1px black;
+	font-family: "Palatino Linotype", "Algerin";
+}
+
+#weatherContainer {
+	background-color: rgba(0, 0, 0.25);
+	box-shadow: 1px 1px 5px; 
+	padding: 50px; 
+	border-radius: 10px; 
+	position: absolute;
+	visibility: hidden;
+}
+
+#weatherContainer h1 {
+ 	margin: 5px; 
+ 	font-size: 42px; 
+ 	font-family: "lucida Sans Unicode"
+}
+
+#searchContainer {
+	padding: 15px; 
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#searchContainer input {
+	width: 200px;
+}
+
+#searchContainer button {
+	background-color: rgb(1, 159, 198);
+	width: 75; 
+}
+
+.searchControl {
+	box-shadow: 2px 2px 5px blak;
+	border: none;
+	border-radius: 5px; 
+	padding: 5px;
+}
+
+#weatherMain {
+	display: block;
+	margin-bottom: 20px; 
+}
+ 
+#weatherMain div {
+	display: inline-block;
+}
+
+#weatherDescriptionHeader {
+	font-size: 38px; 
+	vertical-align: 25px;
+}
+.bottomDetails {
+	display: block;
+	font-size: 24px; 
+	text-align: right;
+}
+
+hr{
+	margin-bottom: 20px;
+}
